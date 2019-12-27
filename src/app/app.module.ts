@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { FormsModule } from '@angular/forms';
-import { MatSelectModule } from '@angular/material';
+import { MatSelectModule, MatProgressBar } from '@angular/material';
 import { MatRadioModule } from '@angular/material';
 import { MatCardModule } from '@angular/material';
 import { NgClassComponent } from './ng-class/ng-class.component';
@@ -19,6 +19,8 @@ import { MatIconModule } from '@angular/material';
 import { MatDividerModule } from '@angular/material';
 import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 import { MatButtonModule } from '@angular/material';
+import { NgSwitchComponent } from './ng-switch/ng-switch.component';
+import { MatProgressBarModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { MatButtonModule } from '@angular/material';
     NgIfComponent,
     SubNgIfComponent,
     NgForComponent,
-    NgForFormComponent
+    NgForFormComponent,
+    NgSwitchComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import { MatButtonModule } from '@angular/material';
     MatListModule,
     MatIconModule,
     MatDividerModule,
-    MatButtonModule
+    MatButtonModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
